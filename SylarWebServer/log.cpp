@@ -90,4 +90,19 @@ namespace sylar
 			std::cout << m_formatter->format(event);
 		}
 	}
+
+	LogFormatter::LogFormatter(const std::string & pattern)
+	{
+
+	}
+
+	std::string LogFormatter::format(LogEvent::ptr event)
+	{
+
+	}
+
+	void LogFormatter::init()
+	{
+
+	}
 }
